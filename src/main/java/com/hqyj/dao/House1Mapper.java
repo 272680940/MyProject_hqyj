@@ -20,4 +20,7 @@ public interface House1Mapper {
     List<House1> selectAllHouse();
 
     House1 selectHouseById(Integer hId);
+
+    //分页查询所有客房数据
+    List<House1> selectAllHouseByPage(House1 house);
 }

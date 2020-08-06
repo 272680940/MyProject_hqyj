@@ -4,7 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.hqyj.dao.Enter1Mapper;
 import com.hqyj.pojo.Enter1;
-import com.hqyj.service.Enter1Service;
+import com.hqyj.service.EnterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-public class Enter1ServiceImpl implements Enter1Service {
+public class EnterServiceImpl implements EnterService {
     @Autowired
     private Enter1Mapper enter1Mapper;
 
@@ -36,5 +36,23 @@ public class Enter1ServiceImpl implements Enter1Service {
         return map;
     }
 
+    //通过客户ID(cId)查询房间信息、楼层信息和客户信息，并携带操作员信息，展示到模态框中
+    public Enter1 selectInfoByCustomerId(Integer cId) {
+        return enter1Mapper.selectInfoByCustomerId(cId);
+    }
 
+    //添加客户登记信息
+    public int updateInfo(Enter1 enter) {
+        return enter1Mapper.updateByPrimaryKeySelective(enter);
+    }
+
+    //查询有多少预约房间
+    public int selectOrderRoomByeState() {
+        return enter1Mapper.selectOrderRoomByeState();
+    }
+
+    //添加无预约的入住信息
+    public int insertInfo(Enter1 enter) {
+        return enter1Mapper.insertSelective(enter);
+    }
 }

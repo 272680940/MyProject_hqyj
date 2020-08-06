@@ -1,6 +1,6 @@
 package com.hqyj.pojo;
 
-public class House1 {
+public class House1  extends  Page{
     private Integer hId;
 
     private String hName;

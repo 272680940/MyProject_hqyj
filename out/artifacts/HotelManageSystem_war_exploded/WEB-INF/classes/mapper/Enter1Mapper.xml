@@ -44,6 +44,11 @@
       <result column="c_password" property="cPassword" jdbcType="VARCHAR" />
       <result column="role_id" property="roleId" jdbcType="INTEGER" />
     </association>
+    <!--  关联floor表  -->
+    <association property="floor" javaType="com.hqyj.pojo.Floor1">
+      <id column="f_id" property="fId" jdbcType="INTEGER" />
+      <result column="f_name" property="fName" jdbcType="VARCHAR" />
+    </association>
   </resultMap>
   <sql id="Base_Column_List" >
     e_id, house_id, customer_id, customer_info, start_time, end_time_estimate, end_time_actual, 
@@ -254,5 +259,53 @@
     enter1.e_state=1
     </trim>
   </select>
+
+  <select id="selectInfoByCustomerId" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+SELECT
+customer1.c_id,
+customer1.c_name,
+customer1.c_card,
+customer1.c_phone,
+customer1.c_account,
+customer1.c_password,
+enter1.e_id,
+enter1.house_id,
+enter1.customer_id,
+enter1.customer_info,
+enter1.start_time,
+enter1.end_time_estimate,
+enter1.end_time_actual,
+enter1.fee_total,
+enter1.user_id,
+enter1.e_state,
+house1.h_id,
+house1.h_name,
+house1.h_amount,
+house1.h_price,
+house1.floor_id,
+house1.h_state,
+house1.customer_id,
+house1.h_info,
+floor1.f_id,
+floor1.f_name,
+user1.u_id,
+user1.u_name,
+user1.u_phone,
+user1.u_account,
+user1.u_password,
+user1.role_id
+FROM
+house1
+INNER JOIN floor1 ON house1.floor_id = floor1.f_id
+INNER JOIN enter1 ON enter1.house_id = house1.h_id
+INNER JOIN customer1 ON customer1.c_id = enter1.customer_id
+INNER JOIN user1 ON enter1.user_id = user1.u_id
+where customer1.c_id = #{cId}
+  </select>
+
+  <select id="selectOrderRoomByeState" resultType="java.lang.Integer">
+    select count(*) from enter1 where e_state = 1
+  </select>
+
 
 </mapper>

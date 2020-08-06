@@ -166,5 +166,28 @@
     WHERE house1.h_id=#{hId,jdbcType=INTEGER}
   </select>
 
+  <select id="selectAllHouseByPage" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+    SELECT
+    house1.h_id,
+    house1.h_name,
+    house1.h_amount,
+    house1.h_price,
+    house1.floor_id,
+    house1.h_state,
+    house1.customer_id,
+    house1.h_info,
+    floor1.f_id,
+    floor1.f_name
+    FROM
+    house1
+    INNER JOIN floor1 ON house1.floor_id = floor1.f_id
+    <trim prefix=" where " suffix=" " suffixOverrides=" and">
+      <if test="hAmount!=null and hAmount!=''">
+        h_amount=#{hAmount,jdbcType=INTEGER} and
+      </if>
+      h_state = 1
+    </trim>
 
+
+  </select>
 </mapper>

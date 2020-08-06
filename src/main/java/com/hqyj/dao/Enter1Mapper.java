@@ -19,4 +19,8 @@ public interface Enter1Mapper {
     int updateByPrimaryKey(Enter1 record);
 
     List<Enter1> selectEnterInfo(@Param("hId") Integer hId);
+
+    Enter1 selectInfoByCustomerId(@Param("cId") Integer cId);
+
+    int selectOrderRoomByeState();
 }

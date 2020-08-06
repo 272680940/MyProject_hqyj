@@ -31,7 +31,7 @@
       #{cPhone,jdbcType=VARCHAR}, #{cAccount,jdbcType=VARCHAR}, #{cPassword,jdbcType=VARCHAR}, 
       #{roleId,jdbcType=INTEGER})
   </insert>
-  <insert id="insertSelective" parameterType="com.hqyj.pojo.Customer1" >
+  <insert id="insertSelective" parameterType="com.hqyj.pojo.Customer1" useGeneratedKeys="true" keyProperty = "cId" keyColumn = "c_id">
     insert into customer1
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="cId != null" >

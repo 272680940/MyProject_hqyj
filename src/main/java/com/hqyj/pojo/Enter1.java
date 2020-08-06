@@ -1,5 +1,7 @@
 package com.hqyj.pojo;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.Date;
 
 public class Enter1 extends Page{
@@ -10,9 +12,9 @@ public class Enter1 extends Page{
     private Integer customerId;
 
     private String customerInfo;
-
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date startTime;
-
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date endTimeEstimate;
 
     private Date endTimeActual;
@@ -32,6 +34,16 @@ public class Enter1 extends Page{
     private User1 user;
 
     private House1 house;
+
+    private Floor1 floor;
+
+    public Floor1 getFloor() {
+        return floor;
+    }
+
+    public void setFloor(Floor1 floor) {
+        this.floor = floor;
+    }
 
     public Customer1 getCustomer() {
         return customer;
