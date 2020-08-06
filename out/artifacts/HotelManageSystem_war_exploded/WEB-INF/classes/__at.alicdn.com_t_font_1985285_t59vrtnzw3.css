@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1985285_t59vrtnzw3.eot?t=1596514761263'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1985285_t59vrtnzw3.eot?t=1596514761263#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQ0AAsAAAAACIwAAAPmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqEaIQOATYCJAMMCwgABCAFhG0HQRtfB8geB+WY0yonwiLme6gaPE95fX9uqoKutAYmV/QK1Gpehvzspbm8/wFRhvJJvhqRQl3KXQHTdERCz4gJM6OAlB33xFdkrP+5nN5oaWDzW5bLWJP29qPeAcYBBbYnroUFWhYF5A3TSxyIT+shgCEzBZGaq9t7ohGN100AGegoXTTWLOiRUsFDcHrGamQpNp41z7oOLEk/L+8pLh5Y2Aqvb9PeK5aYD+LBEjU1MZWOMYJ0PxfAJoECCgIapHOvpy01ebwgCmM0teO5DhrB2iuUSEAqsTrnpn88C8TB04QhNW/CgiAe8iEQLLFgQVx1doC0wAXgO6CmHOySzHHiyVPE4xLWYcfRGHEf4mlHD8i1bFmzu7ZpI+5W9grPXwlTV/mRBWvSyOrVXcKs3JHS6Kk7U8XW7BZ32q6xU+tfi67cJba/5l4aiaxahdN+AVlbeJI+4QcPWj161Obhw9b377eJ6eigdvGJ2GGMxDpqza7f7ThqUNu/vkfdyBbMkBBtw+h9MACfjGLEl1ZaC20aiwyaG5H0eQrR08d0aZYIpmP+eh0eDieePPoya8+EZYPaDTweWHLM2xROZ7Z4x9xNfjp/0/ian1cjdd6C09HWb49u14suimaXEvOjeW6vup072ufjbqlCJ7cdSERXTn6PeRtNGrNxUe7GUJrQRqcvcqc3m3cRpn3czfzdbXX8x/fj+piOzep4yTymj8//5Gye5XlKx0I7s8y/VuZapSwdmmI9pryO/h3Rc3T3RLLOzVp0yH3x33WxLm/H7siyY1vmSlkqdRgvZCn8runFSwOTTiQNeDUteBRMe//hUIOk1tu3bdveOii5dO/V2lf3Ssv/WBZv8eOlM0+ozRJkyp2547joigASqck1/dLk6q1q+/9/Q9WHGRLGKv70fA3AsybWFehLpJlvw3s7XoG/LZ1Zoa3csyqtJaHETSl60vUuzRir5R+XAyTn5XpdqtlRELyalIGFSyZQeORENbUg2PiUBAePKmAoQJ3JPikYTg2iQ0B+ZgEQ4uwHiyinQBHnBqqpL8AmNR/BIS4KDK0lxZw+uaVfcw1CndEC4wQcMwplYOfmrHQHVebrVJWnrAOk1AlBuXDRZmoNQ6Q9BqSHqsIsQVIUwCrYDH0/gpgiF00u2MxxtVikd9+ZCmYUiGZqQCA6DGIBdOcEoB8mESEyrs40t96/A6LI8NGhEUIjeABCpDj1A8UoTNEZ6JomnEV4l21GcIiiwkgYCdAbIiIAqA1ciO/HI4Ch/a1cEBOmQN8V0ZgqRRBZ77mawvm64PnWAAavrxJLlGhCYx09VIkTDmnpm+mGHsrMwFAIAAA=') format('woff2'),
+  url('//at.alicdn.com/t/font_1985285_t59vrtnzw3.woff?t=1596514761263') format('woff'),
+  url('//at.alicdn.com/t/font_1985285_t59vrtnzw3.ttf?t=1596514761263') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1985285_t59vrtnzw3.svg?t=1596514761263#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiangqing:before {
+  content: "\e610";
+}
+
+.icon-huabanfuben:before {
+  content: "\e68f";
+}
+
