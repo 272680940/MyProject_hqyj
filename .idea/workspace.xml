@@ -7,64 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40802d0a-9c86-4043-b3a5-fce5163d1cd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/service/CustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/service/EnterService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/service/impl/CustomerServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/service/impl/EnterServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqyj/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqyj/service/EnterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqyj/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqyj/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hqyj/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hqyj/service/CustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hqyj/service/EnterService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hqyj/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hqyj/service/impl/CustomerServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hqyj/service/impl/EnterServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hqyj/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/dao/Enter1Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/dao/Enter1Mapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/dao/House1Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/dao/House1Mapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/pojo/Enter1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/pojo/Enter1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/pojo/House1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/pojo/House1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/service/Enter1Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/service/HouseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/service/HouseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/service/impl/Enter1ServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/service/impl/HouseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/com/hqyj/service/impl/HouseServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/mapper/Customer1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/mapper/Customer1Mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/mapper/Enter1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/mapper/Enter1Mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/mapper/House1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/classes/mapper/House1Mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/jsp/user/enterPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/jsp/user/enterPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/jsp/user/housePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HotelManageSystem_war_exploded/WEB-INF/jsp/user/housePage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hqyj/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqyj/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqyj/dao/Enter1Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqyj/dao/Enter1Mapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hqyj/dao/House1Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqyj/dao/House1Mapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hqyj/pojo/Enter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqyj/pojo/Enter1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hqyj/pojo/House1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqyj/pojo/House1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqyj/service/Enter1Service.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hqyj/service/HouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqyj/service/HouseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hqyj/service/impl/Enter1ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqyj/service/impl/EnterServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hqyj/service/impl/HouseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hqyj/service/impl/HouseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/Customer1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Customer1Mapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/Enter1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Enter1Mapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/House1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/House1Mapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/enterPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/enterPage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/housePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/housePage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hqyj/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hqyj/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hqyj/dao/Enter1Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hqyj/dao/Enter1Mapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hqyj/dao/House1Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hqyj/dao/House1Mapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hqyj/pojo/Enter1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hqyj/pojo/Enter1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hqyj/pojo/House1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hqyj/pojo/House1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hqyj/service/Enter1Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hqyj/service/HouseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hqyj/service/HouseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hqyj/service/impl/Enter1ServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hqyj/service/impl/HouseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hqyj/service/impl/HouseServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/Customer1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/Customer1Mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/Enter1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/Enter1Mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/House1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/House1Mapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +80,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/HotelManageSystem44" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -137,7 +90,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -261,7 +214,9 @@
       <workItem from="1596586971496" duration="38952000" />
       <workItem from="1596673821918" duration="744000" />
       <workItem from="1596675652416" duration="29527000" />
-      <workItem from="1596707417483" duration="7244000" />
+      <workItem from="1596707417483" duration="8894000" />
+      <workItem from="1596716596319" duration="675000" />
+      <workItem from="1596760144159" duration="13881000" />
     </task>
     <task id="LOCAL-00001" summary="2020-08-06 00:09:03,完成了入住页面的分页查询、数据展示">
       <created>1596675871329</created>
@@ -284,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596676401102</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2020-08-06 19:52：00,完成了入住页面的所有功能，包括&#10;    （1）页面数据的展示，分页，查询&#10;    （2）客户入住登记表的添加和修改">
+      <created>1596715027577</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596715027577</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,17 +254,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020-08-06 00:09:03,完成了入住页面的分页查询、数据展示" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-08-06 00:09:03,完成了入住页面的分页查询、数据展示" />
+    <MESSAGE value="2020-08-06 19:52：00,完成了入住页面的所有功能，包括&#10;    （1）页面数据的展示，分页，查询&#10;    （2）客户入住登记表的添加和修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-08-06 19:52：00,完成了入住页面的所有功能，包括&#10;    （1）页面数据的展示，分页，查询&#10;    （2）客户入住登记表的添加和修改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596539871697">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1596539871697" />
-    <state x="525" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1596709665047">
+    <state x="525" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1596763934760">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="525" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1596709665047" />
+    <state x="525" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1596763934760" />
     <state x="504" y="339" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1596530235202">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -311,6 +274,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="530" y="339" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1440.860@0.0.1440.860" timestamp="1596530241211" />
+    <state x="499" y="313" width="441" height="243" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596761644292">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="499" y="313" width="441" height="243" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.860@0.0.1440.860" timestamp="1596761644292" />
     <state x="368" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596702476480">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -323,78 +290,78 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="471" y="187" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1440.860@0.0.1440.860" timestamp="1596529632774" />
-    <state x="311" y="21" key="CommitChangelistDialog2" timestamp="1596676399261">
+    <state x="311" y="21" key="CommitChangelistDialog2" timestamp="1596715022626">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="311" y="21" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1596676399261" />
-    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1596676131019">
+    <state x="311" y="21" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1596715022626" />
+    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1596766405131">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1596676131019" />
-    <state width="1111" height="275" key="GridCell.Tab.0.bottom" timestamp="1596714646546">
+    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1596766405131" />
+    <state width="1098" height="232" key="GridCell.Tab.0.bottom" timestamp="1596787359522">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1596714646546" />
-    <state width="1111" height="275" key="GridCell.Tab.0.center" timestamp="1596714646546">
+    <state width="1098" height="232" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1596787359522" />
+    <state width="1098" height="232" key="GridCell.Tab.0.center" timestamp="1596787359522">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1596714646546" />
-    <state width="1111" height="275" key="GridCell.Tab.0.left" timestamp="1596714646545">
+    <state width="1098" height="232" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1596787359522" />
+    <state width="1098" height="232" key="GridCell.Tab.0.left" timestamp="1596787359521">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1596714646545" />
-    <state width="1111" height="275" key="GridCell.Tab.0.right" timestamp="1596714646546">
+    <state width="1098" height="232" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1596787359521" />
+    <state width="1098" height="232" key="GridCell.Tab.0.right" timestamp="1596787359522">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1596714646546" />
-    <state width="1111" height="275" key="GridCell.Tab.1.bottom" timestamp="1596714646547">
+    <state width="1098" height="232" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1596787359522" />
+    <state width="1098" height="232" key="GridCell.Tab.1.bottom" timestamp="1596787359523">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1596714646547" />
-    <state width="1111" height="275" key="GridCell.Tab.1.center" timestamp="1596714646546">
+    <state width="1098" height="232" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1596787359523" />
+    <state width="1098" height="232" key="GridCell.Tab.1.center" timestamp="1596787359523">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1596714646546" />
-    <state width="1111" height="275" key="GridCell.Tab.1.left" timestamp="1596714646546">
+    <state width="1098" height="232" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1596787359523" />
+    <state width="1098" height="232" key="GridCell.Tab.1.left" timestamp="1596787359522">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1596714646546" />
-    <state width="1111" height="275" key="GridCell.Tab.1.right" timestamp="1596714646546">
+    <state width="1098" height="232" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1596787359522" />
+    <state width="1098" height="232" key="GridCell.Tab.1.right" timestamp="1596787359523">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1596714646546" />
-    <state width="1111" height="275" key="GridCell.Tab.2.bottom" timestamp="1596714646547">
+    <state width="1098" height="232" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1596787359523" />
+    <state width="1098" height="232" key="GridCell.Tab.2.bottom" timestamp="1596787359526">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1596714646547" />
-    <state width="1111" height="275" key="GridCell.Tab.2.center" timestamp="1596714646547">
+    <state width="1098" height="232" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1596787359526" />
+    <state width="1098" height="232" key="GridCell.Tab.2.center" timestamp="1596787359523">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1596714646547" />
-    <state width="1111" height="275" key="GridCell.Tab.2.left" timestamp="1596714646547">
+    <state width="1098" height="232" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1596787359523" />
+    <state width="1098" height="232" key="GridCell.Tab.2.left" timestamp="1596787359523">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1596714646547" />
-    <state width="1111" height="275" key="GridCell.Tab.2.right" timestamp="1596714646547">
+    <state width="1098" height="232" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1596787359523" />
+    <state width="1098" height="232" key="GridCell.Tab.2.right" timestamp="1596787359523">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1596714646547" />
-    <state width="1111" height="275" key="GridCell.Tab.3.bottom" timestamp="1596714646548">
+    <state width="1098" height="232" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1596787359523" />
+    <state width="1098" height="232" key="GridCell.Tab.3.bottom" timestamp="1596787359530">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.3.bottom/0.0.1440.860@0.0.1440.860" timestamp="1596714646548" />
-    <state width="1111" height="275" key="GridCell.Tab.3.center" timestamp="1596714646548">
+    <state width="1098" height="232" key="GridCell.Tab.3.bottom/0.0.1440.860@0.0.1440.860" timestamp="1596787359530" />
+    <state width="1098" height="232" key="GridCell.Tab.3.center" timestamp="1596787359529">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.3.center/0.0.1440.860@0.0.1440.860" timestamp="1596714646548" />
-    <state width="1111" height="275" key="GridCell.Tab.3.left" timestamp="1596714646548">
+    <state width="1098" height="232" key="GridCell.Tab.3.center/0.0.1440.860@0.0.1440.860" timestamp="1596787359529" />
+    <state width="1098" height="232" key="GridCell.Tab.3.left" timestamp="1596787359529">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.3.left/0.0.1440.860@0.0.1440.860" timestamp="1596714646548" />
-    <state width="1111" height="275" key="GridCell.Tab.3.right" timestamp="1596714646548">
+    <state width="1098" height="232" key="GridCell.Tab.3.left/0.0.1440.860@0.0.1440.860" timestamp="1596787359529" />
+    <state width="1098" height="232" key="GridCell.Tab.3.right" timestamp="1596787359529">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1111" height="275" key="GridCell.Tab.3.right/0.0.1440.860@0.0.1440.860" timestamp="1596714646548" />
+    <state width="1098" height="232" key="GridCell.Tab.3.right/0.0.1440.860@0.0.1440.860" timestamp="1596787359529" />
     <state x="250" y="84" key="Maven.ArtifactSearchDialog" timestamp="1596682050819">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -403,14 +370,14 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="291" y="91" key="Registry/0.0.1440.860@0.0.1440.860" timestamp="1596539858152" />
-    <state x="221" y="7" key="SettingsEditor" timestamp="1596675705287">
+    <state x="296" y="7" key="SettingsEditor" timestamp="1596787351042">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="221" y="7" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1596675705287" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1596676406851">
+    <state x="296" y="7" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1596787351042" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1596715040657">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1596676406851" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1596715040657" />
     <state x="462" y="56" key="refactoring.ChangeSignatureDialog" timestamp="1596626795998">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

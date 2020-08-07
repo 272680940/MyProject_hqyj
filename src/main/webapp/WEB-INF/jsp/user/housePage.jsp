@@ -29,13 +29,14 @@
             <ul class="search">
                 <li>
                     <form action="/uc/vacantRoomPage.do" id="searchForm">
-                        房型：<input type="radio" name="hAmount" value="1">大床房&nbsp;&nbsp;
-                        <input type="radio" name="hAmount" value="2">双床房&nbsp;&nbsp;
+                        房型：<input type="radio" name="hAmount" value="1" <c:if test="${hAmount==1}">checked</c:if>>大床房&nbsp;&nbsp;
+                        <input type="radio" name="hAmount" value="2" <c:if test="${hAmount==2}">checked</c:if>>双床房&nbsp;&nbsp;
                         <input type="submit" value="查询" class="button border-blue icon-edit"
                                style="padding:5px 15px; margin:0 10px;"/>
                     </form>
                 </li>
                 <a style="padding:5px 15px; margin:0 10px;" class="btn btn-default btn-info" href="/uc/enterPage.do"> 返回上一层</a>
+                <span style="color: red">${msg}</span>
             </ul>
         </div>
     </div>
@@ -54,7 +55,7 @@
         <%--  数据展示  --%>
         <c:forEach items="${map.pageInfo}" var="house">
         <tr>
-            <td>${house.floor.fName}楼</td>
+            <td>${house.floorId}楼</td>
             <td>${house.hId}</td>
             <td>${house.hAmount==1?'大床房':'双床房'}</td>
             <td>${house.hPrice}￥</td>
@@ -307,7 +308,7 @@ function enterRoom(hId) {
        success:function (result) {
            $("#room_regist_modal label[name='hId']").text(result.hId);
            $("#room_regist_modal label[name='hAmount']").text(result.hAmount==1?"大床房":"双床房");
-           $("#room_regist_modal label[name='fName']").text(result.floor.fName+"楼");
+           $("#room_regist_modal label[name='fName']").text(result.floorId+"楼");
            $("#room_regist_modal label[name='hPrice']").text(result.hPrice);
            $("#room_regist_modal input:radio[value='"+result.hState+"']").attr("checked",true);
            $("#room_regist_modal input[name='hId']").val(result.hId);
@@ -349,7 +350,7 @@ $("#save_modal_btn").click(function () {
         alert("请正确填写时间并结算费用！");
         $("#room_regist_modal input[name='feeTotal']").val("");
     }else{
-         //alert($("#modelInfo").serialize());
+        // alert($("#modelInfo").serialize());
         $.ajax({
             url: "/uc/updateEnterHouse.ajax",
             dataType:"json",
@@ -378,7 +379,7 @@ function roomInfo(hId) {
         success:function (result) {
             $("#hId").text(result.hId);
             $("#hAmount").text(result.hAmount==1?"大床房":"双床房");
-            $("#fName").text(result.floor.fName+"楼");
+            $("#fName").text(result.floorId+"楼");
             $("#hPrice").text(result.hPrice);
             $("#hInfo").text(result.hInfo);
         }

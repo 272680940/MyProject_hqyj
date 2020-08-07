@@ -23,4 +23,7 @@ public interface House1Mapper {
 
     //分页查询所有客房数据
     List<House1> selectAllHouseByPage(House1 house);
+
+    //假设没有空闲的客房，要在前端显示“当前没有空闲的客房”
+    int selectVacantRoom();
 }

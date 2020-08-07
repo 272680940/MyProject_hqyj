@@ -73,7 +73,10 @@ public class UserController {
     //ajax请求：编辑客户入住信息
     @RequestMapping(value = "updateInfo.ajax",method = RequestMethod.POST)
     @ResponseBody
-    public int updateInfo(Enter1 enter){
+    public int updateInfo(Enter1 enter ,House1 house){
+        house.sethId(enter.getHouseId());
+        house.sethState(3);
+        houseService.updatehState(house);
         return enterService.updateInfo(enter);
     }
 
@@ -96,7 +99,14 @@ public class UserController {
         User1 user = userService.selectUserById((Integer)(req.getSession().getAttribute("user_id")));
         model.addAttribute("user",user);
 
+        //假设没有空闲的客房，要在前端显示“当前没有空闲的客房”
+        int i = houseService.selectVacantRoom();
+        if (i==0){
+            model.addAttribute("msg","当前没有空闲的客房");
+        }
 
+        //得到条件搜索的hAmount的状态
+        Integer hAmountState = house.gethAmount();
         model.addAttribute("hAmount",house.gethAmount());
         return "user/housePage";
     }
@@ -119,14 +129,13 @@ public class UserController {
         Integer cId = customer.getcId();
         Integer uId = user.getuId();
         Integer hId = house.gethId();
-        if(house.gethState()==1){//状态为空闲的客房
+        house.sethId(hId);
             //客房信息登记后
             //(1)将house表的状态改变;  1:空闲、2:已订、3:在住
             house.sethState(3);
             houseService.updatehState(house);
             //(2)将enter表的状态改变;  1:预定、2:正在住、3:已退
             enter.seteState(2);
-        }
         enter.setCustomerId(cId);//加入客户id
         enter.setHouseId(hId);//加入房间id
         enter.setUserId(uId);//加入操作员id

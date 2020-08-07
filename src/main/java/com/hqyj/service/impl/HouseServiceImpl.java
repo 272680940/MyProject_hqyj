@@ -49,4 +49,9 @@ public class HouseServiceImpl implements HouseService {
     public int updatehState(House1 house) {
         return houseMapper.updateByPrimaryKeySelective(house);
     }
+
+    //假设没有空闲的客房，要在前端显示“当前没有空闲的客房”
+    public int selectVacantRoom() {
+        return houseMapper.selectVacantRoom();
+    }
 }

@@ -10,10 +10,6 @@
     <result column="h_state" property="hState" jdbcType="INTEGER" />
     <result column="customer_id" property="customerId" jdbcType="INTEGER" />
     <result column="h_info" property="hInfo" jdbcType="VARCHAR" />
-    <association property="floor" javaType="com.hqyj.pojo.Floor1">
-      <id column="f_id" property="fId" jdbcType="INTEGER" />
-      <result column="f_name" property="fName" jdbcType="VARCHAR" />
-    </association>
   </resultMap>
   <sql id="Base_Column_List" >
     h_id, h_name, h_amount, h_price, floor_id, h_state, customer_id, h_info
@@ -132,37 +128,32 @@
 <!--#########################################################################-->
   <select id="selectAllHouse" resultMap="BaseResultMap" >
     SELECT
-    house1.h_id,
-    house1.h_name,
-    house1.h_amount,
-    house1.h_price,
-    house1.floor_id,
-    house1.h_state,
-    house1.customer_id,
-    house1.h_info,
-    floor1.f_id,
-    floor1.f_name
-    FROM
-    house1
-    INNER JOIN floor1 ON house1.floor_id = floor1.f_id
+house1.h_id,
+house1.h_name,
+house1.h_amount,
+house1.h_price,
+house1.floor_id,
+house1.h_state,
+house1.customer_id,
+house1.h_info
+FROM
+house1
+
     where h_state = 1
   </select>
 
   <select id="selectHouseById" resultMap="BaseResultMap" parameterType="java.lang.Integer">
     SELECT
-    house1.h_id,
-    house1.h_name,
-    house1.h_amount,
-    house1.h_price,
-    house1.floor_id,
-    house1.h_state,
-    house1.customer_id,
-    house1.h_info,
-    floor1.f_id,
-    floor1.f_name
-    FROM
-    house1
-    INNER JOIN floor1 ON house1.floor_id = floor1.f_id
+house1.h_id,
+house1.h_name,
+house1.h_amount,
+house1.h_price,
+house1.floor_id,
+house1.h_state,
+house1.customer_id,
+house1.h_info
+FROM
+house1
     WHERE house1.h_id=#{hId,jdbcType=INTEGER}
   </select>
 
@@ -175,19 +166,21 @@
     house1.floor_id,
     house1.h_state,
     house1.customer_id,
-    house1.h_info,
-    floor1.f_id,
-    floor1.f_name
+    house1.h_info
     FROM
     house1
-    INNER JOIN floor1 ON house1.floor_id = floor1.f_id
     <trim prefix=" where " suffix=" " suffixOverrides=" and">
       <if test="hAmount!=null and hAmount!=''">
         h_amount=#{hAmount,jdbcType=INTEGER} and
       </if>
       h_state = 1
     </trim>
-
-
   </select>
+
+  <select id="selectVacantRoom" resultType="java.lang.Integer" >
+    select count(*)
+    from house1
+    where h_state = 1
+  </select>
+
 </mapper>

@@ -2,6 +2,8 @@ package com.hqyj.pojo;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Enter1 extends Page{
@@ -12,9 +14,9 @@ public class Enter1 extends Page{
     private Integer customerId;
 
     private String customerInfo;
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
+
     private Date startTime;
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
+
     private Date endTimeEstimate;
 
     private Date endTimeActual;
@@ -34,16 +36,6 @@ public class Enter1 extends Page{
     private User1 user;
 
     private House1 house;
-
-    private Floor1 floor;
-
-    public Floor1 getFloor() {
-        return floor;
-    }
-
-    public void setFloor(Floor1 floor) {
-        this.floor = floor;
-    }
 
     public Customer1 getCustomer() {
         return customer;
@@ -101,20 +93,40 @@ public class Enter1 extends Page{
         this.customerInfo = customerInfo;
     }
 
-    public Date getStartTime() {
-        return startTime;
+    public String getStartTime() {
+        if (this.startTime!=null){
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+            return simpleDateFormat.format(this.startTime);
+        }
+        return "";
     }
 
-    public void setStartTime(Date startTime) {
-        this.startTime = startTime;
+    public void setStartTime(String startTime) throws ParseException {
+        if (startTime!=null){
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+            Date parseTime = simpleDateFormat.parse(startTime);
+            this.startTime = parseTime;
+        }else {
+            this.startTime = new Date();
+        }
     }
 
-    public Date getEndTimeEstimate() {
-        return endTimeEstimate;
+    public String getEndTimeEstimate() {
+        if (this.endTimeEstimate!=null){
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+            return simpleDateFormat.format(this.endTimeEstimate);
+        }
+        return "";
     }
 
-    public void setEndTimeEstimate(Date endTimeEstimate) {
-        this.endTimeEstimate = endTimeEstimate;
+    public void setEndTimeEstimate(String endTimeEstimate) throws ParseException {
+        if (endTimeEstimate!=null){
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+            Date parseTime = simpleDateFormat.parse(endTimeEstimate);
+            this.endTimeEstimate = parseTime;
+        }else {
+            this.endTimeEstimate = new Date();
+        }
     }
 
     public Date getEndTimeActual() {

@@ -17,15 +17,7 @@ public class House1  extends  Page{
 
     private String hInfo;
 
-    private Floor1 floor;
 
-    public Floor1 getFloor() {
-        return floor;
-    }
-
-    public void setFloor(Floor1 floor) {
-        this.floor = floor;
-    }
 
     public Integer gethId() {
         return hId;

@@ -299,7 +299,7 @@
                 //将返回的信息显示在模态框中
                 $("#room_regist_modal label[name=hId]").text(result.house.hName);
                 $("#room_regist_modal label[name='hAmount']").text(result.house.hAmount==1?"大床房":"双床房");
-                $("#room_regist_modal label[name='fName']").text(result.floor.fName+"楼");
+                $("#room_regist_modal label[name='fName']").text(result.house.floorId+"楼");
                 $("#room_regist_modal label[name='hPrice']").text(result.house.hPrice);
                 $("#room_regist_modal textarea[name='hInfo']").text(result.house.hInfo);
                 $("#room_regist_modal input:radio[value='"+result.eState+"']").prop("checked",true);
@@ -367,7 +367,7 @@
             success:function (result) {
                 $("#hId").text(result.hId);
                 $("#hAmount").text(result.hAmount==1?"大床房":"双床房");
-                $("#fName").text(result.floor.fName+"楼");
+                $("#fName").text(result.floorId+"楼");
                 $("#hPrice").text(result.hPrice);
                 $("#hInfo").text(result.hInfo);
             }
@@ -389,17 +389,6 @@
         var divNum = 1000 * 3600 * 24;
         return parseInt((eTime.getTime() - sTime.getTime()) / parseInt(divNum));
     }
-
-    function formatDate(now) {
-        var year=now.getFullYear();  //取得4位数的年份
-        var month=now.getMonth()+1;  //取得日期中的月份，其中0表示1月，11表示12月
-        var date=now.getDate();      //返回日期月份中的天数（1到31）
-        var hour=now.getHours();     //返回日期中的小时数（0到23）
-        var minute=now.getMinutes(); //返回日期中的分钟数（0到59）
-        var second=now.getSeconds(); //返回日期中的秒数（0到59）
-        return year+"-"+month+"-"+date+" "+hour+":"+minute+":"+second;
-    }
-
 
     /* 自定义时间格式-----开始 */
     function getMyDate(str){

@@ -17,4 +17,7 @@ public interface HouseService {
 
 
     int updatehState(House1 house);
+
+    //假设没有空闲的客房，要在前端显示“当前没有空闲的客房”
+    int selectVacantRoom();
 }
